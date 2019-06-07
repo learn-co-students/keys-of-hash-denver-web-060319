@@ -7,7 +7,7 @@ class Hash
     #iterate through arguments
     arguments.each do |info|
       
-      #adda all keys that matches to the array
+      #adds all keys that match to the array
       self. each do |key, value|
         #binding.pry
         if info == value
